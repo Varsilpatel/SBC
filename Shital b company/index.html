@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shital B Company | Premium Spices</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #FF914D;
+      --text: #333;
+      --light-bg: #fff8f3;
+      --soft-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: white;
+      color: var(--text);
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 30px;
+      background: linear-gradient(to bottom, #fff1e6, #ffffff);
+      animation: fadeInDown 1s ease-out;
+      box-shadow: var(--soft-shadow);
+    }
+
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: var(--accent);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    nav {
+      background: white;
+      box-shadow: var(--soft-shadow);
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #444;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: var(--light-bg);
+      margin: 40px 20px;
+      border-radius: 20px;
+      box-shadow: var(--soft-shadow);
+      animation: fadeInUp 1s ease-in;
+    }
+
+    section h2 {
+      font-size: 2.2rem;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    section img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    section img:hover {
+      transform: scale(1.07);
+    }
+
+    section p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    footer {
+      background: #222;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 1rem;
+      color: white;
+    }
+
+    footer p {
+      margin: 6px 0;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      section {
+        margin: 20px 10px;
+      }
+
+      nav a {
+        margin: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="IMG_20220831_093007186.jpg" alt="Company Logo">
+    <h1>Shital B Company</h1>
+    <p>Authentic Indian Spices – Naturally Pure</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="https://en.wikipedia.org/wiki/Cumin">Jeera</a>
+    <a href="https://en.wikipedia.org/wiki/Fennel">Variyali</a>
+    <a href="https://www.healthline.com/nutrition/carom-seeds">Carom</a>
+  </nav>
+
+  <!-- Jeera Section -->
+  <section id="jeera">
+    <h2>Jeera (Cumin Seeds)</h2>
+    <img src="jeera.jpeg" alt="Jeera Image">
+    <p>Our Jeera (Cumin Seeds) is hand-picked for its earthy aroma and strong flavor. A must-have for every Indian dish, our cumin adds warmth and richness to your meals.</p>
+  </section>
+
+  <!-- Variyali Section -->
+  <section id="variyali">
+    <h2>Variyali (Fennel Seeds)</h2>
+    <img src="variyalijpeg.jpeg" alt="Variyali Image">
+    <p>Sweet and soothing, Variyali is used as a digestive and flavoring agent. Shital B Company brings you the finest fennel seeds for freshness in every bite.</p>
+  </section>
+
+  <!-- Saunf Section -->
+  <section id="saunf">
+    <h2>Carom (Ajwain)</h2>
+    <img src="ajmojpeg.jpeg" alt="Saunf Image">
+    <p>Carom is very strong, and used in many Indian dishes. Each tiny carom fruit has a huge amount of thymol in it, and this gives it a flavour a bit like thyme, but several times stronger. Using carom in breads is common throughout India.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>Location:</strong> Unjha, Gujarat, India-384170</p>
+    <p><strong>Email:</strong> shitalbcompany@gmail.com</p>
+    <p>&copy; 2025 Shital B Company. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
